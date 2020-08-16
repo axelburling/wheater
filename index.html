@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wheater</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="app-wrap">
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search-box"
+          placeholder="Search for a city..."
+        />
+      </header>
+      <main>
+        <section class="location">
+          <div class="city">City name, Country</div>
+          <div class="date">Date</div>
+        </section>
+        <div class="current">
+          <div class="temp"><span></span></div>
+          <h3>high and low:</h3>
+          <div class="hi-low"></div>
+          <h3>feels like:</h3>
+          <div class="feels-like"></div>
+          <h3>wind spped:</h3>
+          <div class="wind"></div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script defer src="app.js"></script>
+</html>
