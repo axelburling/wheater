@@ -35,9 +35,8 @@ function displayResults(wheater) {
   wind.innerText = `${wheater.wind.speed}km/h`;
 
   let hilow = document.querySelector(".current .hi-low");
-  hilow.innerText = `${Math.round(wheater.main.temp_min)}c / ${Math.round(
-    wheater.main.temp_max
-  )}c`;
+  hilow.innerText = `${Math.round(wheater.main.temp_min)}c / 
+    ${Math.round(wheater.main.temp_max)}c`;
 
   let feel = document.querySelector(".current .feels-like");
   feel.innerText = `${wheater.main.feels_like}c`;
